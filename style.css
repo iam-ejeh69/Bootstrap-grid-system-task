@@ -1,0 +1,27 @@
+body{
+    background-color: #c7c2c2;
+}
+/* Hero section background image */
+.hero-section {
+    background-image: url('./asset/fish.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+/* Menu Item Cards */
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

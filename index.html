@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+
+<!-- Header Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%; position: fixed;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Delicious Restaurant</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div>
+        <h1>Welcome to Delicious Restaurant</h1>
+        <p>Where every bite is a delight!</p>
+        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+    </div>
+</section>
+
+<!-- Menu Section -->
+<section id="menu" class="container py-5">
+    <h2 class="text-center mb-5">Our Menu</h2>
+    <div class="row">
+        <!-- Menu Item 1 -->
+        <div class="col-md-4 mb-4" style="background-color: rgb(70, 66, 66);">
+            <div class="card menu-item">
+                <img src="./asset/fish.jpeg" class="card-img-top" alt="Dish 1">
+                <div class="card-body">
+                    <h5 class="card-title">Dish 1</h5>
+                    <p class="card-text">A delicious starter to whet your appetite.</p>
+                    <p><strong><p>&#8358;1500</p>
+                    </strong></p>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Item 2 -->
+        <div class="col-md-4 mb-4"  style="background-color: rgb(70, 66, 66);" >
+            <div class="card menu-item">
+                <img src="./asset/fish.jpeg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Dish 2</h5>
+                    <p class="card-text">A flavorful main course to fill your hunger.</p>
+                    <p><strong>&#8358;3500</strong></p>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Item 3 -->
+        <div class="col-md-4 mb-4"  style="background-color: rgb(70, 66, 66);">
+            <div class="card menu-item">
+                <img src="./asset/fish.jpeg" class="card-img-top" alt="Dish 3">
+                <div class="card-body">
+                    <h5 class="card-title">Dish 3</h5>
+                    <p class="card-text">A dessert to end your meal on a high note.</p>
+                    <p><strong>&#8358;5000 </strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about-us" class="container py-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="./asset/fish.jpeg" class="img-fluid" alt="About Us Image">
+        </div>
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>At Delicious Restaurant, we bring together the finest ingredients and culinary expertise to offer you a memorable dining experience. Our chefs carefully craft each dish to ensure the highest quality and flavor, and our friendly staff ensures your visit is nothing short of exceptional.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" requiredb placeholder="Ejeh Godwin">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required placeholder="godwin837@gmail.com">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2024 Delicious Restaurant | All rights reserved</p>
+   
+    <div>
+       
+            <!-- Facebook SVG Logo with Facebook's blue color -->
+            <a href="#" class="me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#1877f2" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 14C4.69 14 2 11.31 2 8s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm2-10h-1c-.55 0-1 .45-1 1v2h2l-.2 2H9v6H7V7H5V5h2V4c0-2.21 1.79-4 4-4h1v2h-1c-.55 0-1 .45-1 1v2h2l-.2 2H9V7h2l-.2 2h-1V7h2v2h2V7h-2V5c0-.55-.45-1-1-1z"/>
+                </svg>
+            </a>
+            
+            <!-- Twitter SVG Logo with Twitter's blue color -->
+            <a href="#" class="me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#1da1f2" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.04 0 9.357-5 9.357-9.334 0-.142 0-.284-.009-.425A6.673 6.673 0 0 0 16 3.542a6.544 6.544 0 0 1-1.887.516 3.297 3.297 0 0 0 1.445-1.819 6.59 6.59 0 0 1-2.088.795A3.271 3.271 0 0 0 11.09 2c-1.8 0-3.26 1.464-3.26 3.27 0 .256.029.506.085.746-2.72-.136-5.126-1.444-6.747-3.436a3.27 3.27 0 0 0-.442 1.645c0 1.137.576 2.14 1.45 2.73-.534-.017-1.038-.164-1.48-.409v.041c0 1.59 1.129 2.92 2.63 3.22-.26.07-.53.1-.8.1-.19 0-.37-.018-.56-.054.37 1.14 1.44 1.97 2.7 1.99-1.06.83-2.39 1.33-3.86 1.33-.25 0-.5-.014-.75-.046 1.36.874 2.97 1.38 4.67 1.38z"/>
+                </svg>
+            </a>
+            
+        <!-- Instagram SVG Logo with Instagram's official gradient colors (Dark Pink and Purple) -->
+    <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 16 16">
+            <g fill="none">
+                <path fill="url(#instagram-gradient)" d="M11.264 0H4.736C2.125 0 0 2.126 0 4.736v7.528c0 2.609 2.126 4.735 4.736 4.735h6.528c2.61 0 4.736-2.126 4.736-4.735V4.736C16 2.126 13.874 0 11.264 0zM8 11.078a3.078 3.078 0 1 1 3.078-3.078A3.081 3.081 0 0 1 8 11.078zm4.515-5.397a.698.698 0 1 1 .699-.698.697.697 0 0 1-.698.698z"/>
+                <path fill="url(#instagram-gradient)" d="M8 5.71a2.29 2.29 0 1 0 2.288 2.29A2.293 2.293 0 0 0 8 5.71z"/>
+                <path fill="url(#instagram-gradient)" d="M10.603 3.015a.699.699 0 1 1 .698-.698.697.697 0 0 1-.698.698z"/>
+            </g>
+            <defs>
+                <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f50057;" />
+                    <stop offset="100%" style="stop-color:#8e24aa;" />
+                </linearGradient>
+            </defs>
+        </svg>
+    </a>
+        </div>
+        
+
+    </div>
+    
+    
+</footer>
+
+<!-- Bootstrap 5 JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
